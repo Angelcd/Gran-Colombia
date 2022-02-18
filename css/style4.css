@@ -1,0 +1,136 @@
+*{
+	margin: 0px 0px 0px 0px;
+}
+
+@Font-face{
+    src: url("/fonts/Quintessential.woff") format("woff"), url("/fonts/Quintessential.ttf") format("truetype");
+	font-family: "Quintessential";
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+	/*background-image: url(background.png);*/
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0px 0px 0px 0px;
+}
+
+.header-logo{
+	border: groove;
+	border-left: none;
+	border-right: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(Img/Backgrounds/Background.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	box-shadow: inset 2px 0px 48px 4px rgba(38,26,1,0.86);
+}
+
+	.header-logo div img{
+		/*float: none;*/
+		justify-content: center;
+		margin: 10px 10px 10px 10px;
+		padding: 0px 5px 0px 5px;
+	}
+	
+	.header-logo div h1{
+		margin: 0px 0px 0px 0px;
+		padding: 20px 0px 20px 0px;
+		font-family: 'Quintessential';
+		font-size: 2.5em;
+		letter-spacing: 2.5px;
+		/*text-align: center;*/
+	}
+
+		.header-logo div h1 span{
+			font-style: italic;
+		}
+
+.Menú{
+	border: groove;
+	border-left: none;
+	border-right: none;
+	display: flex;
+	width: 100%;
+	height: 90%;
+}
+
+	.Menú nav{
+		background: #000000;
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+
+	}
+
+		.Menú nav ul{
+			overflow: hidden;
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+	
+			.Menú nav ul li{
+				float: none;
+				padding: 0.55em 2em;
+			}
+			
+				.Menú nav ul li a{
+					display: block;
+					padding: 2px;
+					color: #fff;
+					text-decoration: none;
+					font-size: 15px;
+					font-family: Helvetica;
+				}
+.h4{
+	text-align: center;
+	font-size: 1em;
+
+}
+
+.Título-Contacto{
+	text-align: center;
+}
+
+.Sección_Footer_0{
+	display: block;
+	color: #fff;
+	background-color: black;
+
+}
+	.Footer_Top{	
+		margin: 0% 20% 0% 20%;	
+		padding: 5% 0% 1% 0%;
+		line-height: 1.5em;
+	}
+		.Footer_Top div{	
+			padding: 0em 1em;
+			line-height: 1.5em;
+		}
+			.Footer_Top div h1{	
+				vertical-align: middle;
+				text-align: center;
+			}
+		.row{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		.RedesSociales{
+			display: flex;
+			justify-content: space-between;
+		}
+			.RedesSociales a img{
+				padding: 2em 0.5em 2em 0.5em;
+			}

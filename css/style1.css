@@ -1,0 +1,255 @@
+*{
+	margin: 0px 0px 0px 0px;
+}
+
+@Font-face{
+    src: url("/fonts/Quintessential.woff") format("woff"), url("/fonts/Quintessential.ttf") format("truetype");
+	font-family: "Quintessential";
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+	/*background-image: url(background.png);*/
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0px 0px 0px 0px;
+}
+.Títulos{
+	font-family: 'Trebuchet', sans-serif;
+}
+.Textos{
+	font-family: Verdana, sans-serif;
+}
+.header-logo{
+	border: groove;
+	border-left: none;
+	border-right: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(Img/Backgrounds/Background.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	box-shadow: inset 2px 0px 48px 4px rgba(38,26,1,0.86);
+}
+
+	.header-logo div img{
+		/*float: none;*/
+		justify-content: center;
+		margin: 10px 10px 10px 10px;
+		padding: 0px 5px 0px 5px;
+	}
+	
+	.header-logo div h1{
+		margin: 0px 0px 0px 0px;
+		padding: 20px 0px 20px 0px;
+		font-family: 'Quintessential';
+		font-size: 30px;
+		letter-spacing: 2.5px;
+		/*text-align: center;*/
+	}
+
+		.header-logo div h1 span{
+			font-style: italic;
+		}
+
+.Menú{
+	border: groove;
+	border-left: none;
+	border-right: none;
+	display: flex;
+	width: 100%;
+	margin: auto;
+}
+
+	.Menú nav{
+		background: #000000;
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+
+		.Menú nav ul{
+			overflow: hidden;
+			list-style: none;
+			display: flex;
+			justify-content: center;
+		}
+	
+			.Menú nav ul li{
+				float: none;
+				padding: 10px 25px 10px 30px;
+			}
+			
+				.Menú nav ul li a{
+					display: block;
+					padding: 2px;
+					color: #fff;
+					text-decoration: none;
+					font-size: 15px;
+					font-family: Helvetica;
+				}
+.Column{
+	display: flex;
+	flex-direction: column;
+}
+.ContenidoDelSitio{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #fff;
+	position: relative;
+	box-shadow: inset 2px 0px 48px 4px rgba(38,26,1,0.86);
+}
+
+	.Sección_2{
+		background: url(Img/Backgrounds/MonumentobatalladelPantanodeVargas.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+		width: auto;
+		margin: 0px 0px 0px 0px;
+		padding: 2% 0% 2% 0%;
+		border-left: none;
+		border-right: none;
+		box-shadow: 2px 0px 48px 4px rgba(38,26,1,0.86);
+		
+	}
+		.Sección_2_Elementos{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			height: 50%;
+			margin: 0% 10% 0% 10%;
+			padding: 0px;
+			color: #fff;
+		}
+			.Sección_2-Elementos_Título{
+				margin-bottom: 1.3em;
+				line-height: 3em;
+			}
+
+			.Sección_2-Elementos_Título h1{
+				text-align: center;
+				font-family: 'Trebuchet', sans-serif;
+				font-weight: 700;
+				font-size: 2em;
+			}
+
+			.Sección_2-Elementos_Texto{
+				line-height: 1.6em;
+			}
+				.Sección_2-Elementos_Texto p{
+					text-align: justify;
+					margin-bottom: 0.5em;
+				}
+
+	.Sección_3{
+		margin: 0% 15% 0% 15%;	
+		padding: 2% 2%;
+		line-height: 1.5em;
+		display: flex;
+	}	
+		.Sección_3 div{
+			padding: 1% 0px;
+		}
+			.Sección_3-Título{
+				text-align: center;
+				font-family: 'Trebuchet';
+				font-weight: 500;
+				font-size: 1.5em;				
+			}
+			.Etapas{
+				display: flex;
+				justify-content: space-between;
+			}
+			.Etapas1{
+				padding-right: 10px;
+			}
+				.Etapas1 p{
+					padding: 2% 3%;
+					text-align: justify;
+				}
+			.Etapas2{
+				padding: 0px 2px 0px 2px;
+			}
+
+.Sección_Footer_0{
+	display: block;
+	color: #fff;
+	background-color: black;
+
+}
+	.Footer_Top{	
+		margin: 0% 20% 0% 20%;	
+		padding: 5% 0% 1% 0%;
+		line-height: 1.5em;
+	}
+		.Footer_Top div{	
+			padding: 0em 1em;
+			line-height: 1.5em;
+		}
+			.Footer_Top div h1{	
+				vertical-align: middle;
+				text-align: center;
+			}
+		.row{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		.RedesSociales{
+			display: flex;
+			justify-content: space-between;
+		}
+			.RedesSociales a img{
+				padding: 2em 0.5em 2em 0.5em;
+			}
+
+
+			/*	.Sección_1{
+		padding: 4em 0px;
+		margin: 0% 20% 0% 20%;	
+		width: auto;
+	}
+		.Sección_1-MyV0{
+			width: auto;
+			line-height: 1.6em;
+		}
+			.Sección_1-MyV0-Título{
+				margin: 0% 0% 5% 0%;
+				padding: 1% 5%;
+				text-align: center;
+				display: block;
+			}
+				.Sección_1-MyV0-Título h2{
+					width: 90%;
+					font-family: 'Trebuchet', sans-serif;
+					font-weight: 700;
+					font-size: 2em;
+				}
+				.Sección_1-MyV1{
+					margin: 0;
+					padding: 0;
+					display: block;
+					width: auto;
+				}
+					.Sección_1-MyV1-Título{
+						margin: 0% 0% 1% 0%;
+					}
+						.Sección_1-MyV1-Título h3{
+							font-family: 'Trebuchet', serif;
+						}
+						.Sección_1-MyV1-Descripción{
+							margin: 0% 0% 1% 0%;
+							text-align: justify;
+						}
+							.Sección_1-MyV1-Descripción p{
+								
+							}
+*/
